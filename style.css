@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 32px;
+    background-color:aqua;
+    
+}
+
+.grid-container {
+    border: 3px solid;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.grid {
+    border: 1px solid;
+    /* width: calc((100% /16)); */
+    /* height: calc((100% /16)); */
+    box-sizing: border-box;
+}
